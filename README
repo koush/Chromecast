@@ -1,0 +1,15 @@
+This release of Google Cast is a developer preview to let you experiment with this unique second-screen
+functionality in your applications.
+
+PLEASE NOTE THAT YOU MAY NOT PUBLISH OR OTHERWISE MAKE PUBLICLY AVAILABLE YOUR GOOGLE CAST APPLICATION
+WITHOUT A WRITTEN AGREEMENT FROM GOOGLE SPECIFICALLY PERMITTING YOU TO DO SO.
+
+To use, you need to import into a separate project in Android Studio or Eclipse, then add that project
+to your project. (lib, res, and AndroidManifest.xml)
+
+You will need to use version 14 of the following Android support libraries:
+
+android-support-v4
+android-support-v7-appcompat
+android-support-v7-mediarouter
+

@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.cast"
+    android:versionCode="1000000"
+    android:versionName="1.0.0" >
+    <!-- versionCode is <Major> * 1000000 + <Minor> * 1000 + <Revision> -->
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <application />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
